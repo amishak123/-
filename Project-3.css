@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gorthic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(g.jpg);
+    height: 700px;
+    width: 1500px;
+    background-size: cover;
+ 
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.1s;
+
+}
+
+ul li a:hover {
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+ul li.active{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: whitesmoke;
+    font-size:70px;
+}
+
+
+.button{
+
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.btn:hover{
+
+    background-color: orangered;
+    color: whitesmoke;
+
+}
+
+ 
